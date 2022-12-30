@@ -7,9 +7,9 @@
     "start": "node bot.js"
   },
   "dependencies": {
-    "twilio": "^3.84..0"
+    "twilio": "^3.84..0",
     "openai":"^3.1.0"
   },
-  "author": "muhammed ashik
+  "author": "muhammed ashik"
   "license": "MIT"
 }
