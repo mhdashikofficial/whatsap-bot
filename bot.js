@@ -43,6 +43,6 @@ app.listen(3000, () => {
           res.sendStatus(500);
         });
     }
-  }
+  });
   });
 });
