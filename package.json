@@ -8,8 +8,8 @@
   },
   "dependencies": {
     "openai-secret-manager": "^2.0.0",
-    "openai": "^4.2.0",
-    "twilio": "^3.53.0"
+    "openai": "^3.1.0",
+    "twilio": "^3.84.0"
   },
   "keywords": [
     "chat",
