@@ -1,0 +1,22 @@
+{
+  "name": "chat-gpt-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "A chat bot that uses GPT to generate responses on WhatsApp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "openai-secret-manager": "^2.0.0",
+    "openai": "^4.2.0",
+    "twilio": "^3.53.0"
+  },
+  "keywords": [
+    "chat",
+    "bot",
+    "whatsapp",
+    "gpt"
+  ],
+  "author": "Ashik",
+  "license": "MIT"
+}
