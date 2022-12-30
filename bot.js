@@ -2,12 +2,12 @@ const twilio = require('twilio');
 const openai = require('openai');
 
 // Set up OpenAI API client
-openai.apiKey = "YOUR_OPENAI_API_KEY";
+openai.apiKey = "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";
 
 // Set up Twilio client
 const client = twilio(
-  "YOUR_TWILIO_ACCOUNT_SID",
-  "YOUR_TWILIO_AUTH_TOKEN"
+  "AC3fe27dd9dc00b67b836160b6ce04b673",
+  "89caf53ad60ddc7c4a5dc4eec971ff0d"
 );
 
 // Set up a webhook to listen for incoming messages
@@ -29,7 +29,7 @@ app.post('/webhook', (req, res) => {
       client.messages
         .create({
           body: response.choices[0].text,
-          from: "YOUR_TWILIO_PHONE_NUMBER",
+          from: "+14155238886",
           to: req.body.From
         })
         .then(() => {
