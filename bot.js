@@ -15,8 +15,6 @@ const express = require('express');
 const app = express();
 app.post('/webhook', (req, res) => {
   const message = req.body.Body;
-app.listen(3000, () => {
-  console.log('Server listening on port 3000');
   // Use the GPT-3 model to generate a response to the message
   openai.completions.create({
     engine: "text-davinci-002",
@@ -43,6 +41,5 @@ app.listen(3000, () => {
           res.sendStatus(500);
         });
     }
-  });
   });
 });
